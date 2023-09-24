@@ -1,0 +1,13 @@
+@use 'variables';
+
+* {
+  box-sizing: border-box;
+  font-family: variables.$font_stack;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: variables.$cor_fundo_geral;
+  height: 100vh;
+}

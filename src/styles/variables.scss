@@ -1,0 +1,180 @@
+:root {
+  --fonte_botao_menu: #ffffff;
+  --fonte_botao_menu_hover: #0F0F57;
+  --fundo_botao_menu: #0F0F57;
+  --fundo_botao_menu_hover: #F6BA13;
+  --fonte_botao_texto: #ffffff;
+  --fundo_botao_texto: #0F0F57;
+  --cor_linha_tabela: #F6BA13;
+  --cor_gradiente_1: #0045F5;
+  --cor_gradiente_2: #0034AD;
+  --cor_gradiente_3: #0F0F57;
+  --cor_fundo_form: #ffffff;
+  --cor_input: #ffffff;
+  --cor_fonte_tabela: #0F0F57;
+  --cor_fonte_form: #000000;
+  --cor_fonte_input: #000000;
+}
+// ↓↓↓↓↓↓↓↓↓↓↓↓↓↓ PERSONALIZÁVEL DO BANCO ↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+
+//  COR DAS FONTES BOTAO MENU
+$fonte_botao_menu: var(--fonte_botao_menu); //#ffffff
+$fonte_botao_menu_hover: var(--fonte_botao_menu_hover); //#076b99 ou #000000
+
+// BACKGROUND COLOR BOTAO MENU
+$fundo_botao_menu: var(--fundo_botao_menu); //#076b99
+$fundo_botao_menu_hover: var(--fundo_botao_menu_hover); //#ffffff
+
+// COR DAS FONTES BOTAO TEXTO
+$fonte_botao_texto: var(--fonte_botao_texto); //#ffffff
+$fonte_botao_texto_hover: #000000;
+
+// BACKGROUND COLOR BOTAO TEXTO
+$fundo_botao_texto: var(--fundo_botao_texto); //#0f0f57
+$fundo_botao_texto_hover: #ffffff;
+
+// COR DAS FONTES TITULO
+$fonte_titulo_escuro: #000000;
+$fonte_titulo_claro: #ffffff;
+
+// CORES DA TABELA
+$fundo_tabela: #ffffff;
+$cor_linha_tabela: var(--cor_linha_tabela); //#076b99;
+$cor_fonte_tabela: var(--cor_fonte_tabela); //#000000
+
+$fundo_container: transparentize(
+  rgb(255, 255, 255),
+  0.6
+); // concatenar opacidade (60)
+
+//COR FORMULARIO
+$cor_fundo_form: var(--cor_fundo_form); //#ffffff
+$cor_fonte_form: var(--cor_fonte_form); //#000000
+
+//COR DO INPUT DO FORM
+$cor_input: var(--cor_input); //#ffffff
+$cor_fonte_input: var(--cor_fonte_input); //#000000
+
+// FUNDO SISTEMA
+$angulo: 140deg; // concatenar deg
+
+$cor_gradiente_1: var(--cor_gradiente_1); //#3874c7
+$porcentagem_gradiente_1: 20%;
+
+$cor_gradiente_2: var(--cor_gradiente_2); //#33acda
+$porcentagem_gradiente_2: 70%;
+
+$cor_gradiente_3: var(--cor_gradiente_3); //#b5f3ff
+$porcentagem_gradiente_3: 100%;
+
+//  ↓↓↓↓↓↓↓↓↓↓↓↓↓↓ CORES DE TESTE  ↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+
+//  COR DAS FONTES BOTAO MENU
+$fonte_botao_menu_teste: var(--fonte_botao_menu_teste); //#ffffff
+$fonte_botao_menu_hover_teste: var(
+  --fonte_botao_menu_hover_teste
+); //#076b99 ou #000000
+
+// BACKGROUND COLOR BOTAO MENU
+$fundo_botao_menu_teste: var(--fundo_botao_menu_teste); //#076b99
+$fundo_botao_menu_hover_teste: var(--fundo_botao_menu_hover_teste); //#ffffff
+
+// COR DAS FONTES BOTAO TEXTO
+$fonte_botao_texto_teste: var(--fonte_botao_texto_teste); //#ffffff
+$fonte_botao_texto_hover_teste: var(
+  --fonte_botao_texto_hover_teste
+); //#076b99 ou #000000
+
+// BACKGROUND COLOR BOTAO TEXTO
+$fundo_botao_texto_teste: var(--fundo_botao_texto_teste); //#076b99
+$fundo_botao_texto_hover_teste: var(--fundo_botao_texto_hover_teste); //#ffffff
+
+// CORES DA TABELA
+$cor_linha_tabela_teste: var(--cor_linha_tabela_teste); //#ffffff
+$cor_fonte_tabela_teste: var(--cor_fonte_tabela_teste); //#000000
+
+// COR FORMULARIO
+$cor_fundo_form_teste: var(--cor_fundo_form_teste); //#ffffff
+$cor_fonte_form_teste: var(--cor_fonte_form_teste); //#000000
+
+//COR DO INPUT DO FORM
+$cor_input_teste: var(--cor_input_teste);
+$cor_fonte_input_teste: var(--cor_fonte_input_teste);
+// FUNDO SISTEMA
+
+$cor_gradiente_1_teste: var(--cor_gradiente_1_teste); //#0045f5
+
+$cor_gradiente_2_teste: var(--cor_gradiente_2_teste); //#0034ad
+
+$cor_gradiente_3_teste: var(--cor_gradiente_3_teste); //#0f0f57
+
+$cor_fundo_geral_teste: linear-gradient(
+  $angulo,
+  $cor_gradiente_1_teste $porcentagem_gradiente_1,
+  $cor_gradiente_2_teste $porcentagem_gradiente_2,
+  $cor_gradiente_3_teste $porcentagem_gradiente_3
+);
+
+/////////////////////////////////////////////////////////////////////////////
+
+//  ↓↓↓↓↓↓↓↓↓↓↓↓↓↓ PADRÃO DO BANCO ↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+
+// TAMANHO FONTES
+$tamanho_fonte_media: 18px;
+$title_font_size: 2.5vw;
+
+//  CORES PADRÃO
+$primeira_cor: #0f0f57;
+$segunda_cor: #0034ad;
+$terceira_cor: #0045f5;
+
+// FONTES
+$font_stack: Helvetica, sans-serif;
+
+// DEGRADÊ
+$cor_fundo_geral: linear-gradient(
+  $angulo,
+  $cor_gradiente_1 $porcentagem_gradiente_1,
+  $cor_gradiente_2 $porcentagem_gradiente_2,
+  $cor_gradiente_3 $porcentagem_gradiente_3
+);
+
+/////////////////////////////////////////////////////////////////////////////
+
+//  SCROLLBAR
+::-webkit-scrollbar {
+  max-height: 0.7vw;
+  max-width: 0.7vw;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: $fundo_botao_menu;
+  border-radius: 20px;
+}
+
+/////////////////////////////////////////////////////////////////////////////
+
+// TABELAS
+.botaoAltera {
+  background-color: transparent;
+  border: transparent;
+  width: 100%;
+}
+
+.botaoExclui {
+  background-color: transparent;
+  border: transparent;
+  width: 100%;
+}
+
+.lapis {
+  width: 50%;
+}
+
+.lixeira {
+  width: 25%;
+}
+
+.form___invisivel {
+  display: none;
+}

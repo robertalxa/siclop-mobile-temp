@@ -1,0 +1,69 @@
+::-webkit-scrollbar {
+  max-width: 0.7vw;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--fundo_botao_menu);
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-track-piece {
+  margin: 4vh 0;
+}
+
+.botaoAltera {
+  background-color: transparent;
+  border: transparent;
+  width: 100%;
+}
+
+.botaoExclui {
+  background-color: transparent;
+  border: transparent;
+  width: 100%;
+}
+
+.lapis {
+  width: 25%;
+}
+
+.lixeira {
+  width: 25%;
+}
+
+.form___invisivel {
+  display: none;
+}
+
+.td {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  min-width: 16vw;
+  text-transform: uppercase;
+  width: 100%;
+}
+.td___string {
+  align-items: center;
+  border-left: 2px solid black;
+  display: flex;
+  justify-content: flex-start;
+  min-width: 16vw;
+  padding: 0.275rem;
+  text-transform: uppercase;
+  width: 100%;
+}
+.td___number {
+  align-items: center;
+  border-left: 2px solid black;
+  display: flex;
+  justify-content: flex-end;
+  min-width: 16vw;
+  padding: 0.275rem;
+  text-transform: uppercase;
+  width: 100%;
+}
+.td___par {
+  background-color: var(--cor_linha_tabela);
+  color: var(--cor_fonte_tabela);
+}/*# sourceMappingURL=td.module.css.map */

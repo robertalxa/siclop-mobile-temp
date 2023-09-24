@@ -1,0 +1,61 @@
+@use '../../../../styles/variables.scss';
+.body{
+    background-color: variables.$cor_fundo_geral;
+    height: 100vh;
+    width: 100%;
+
+    nav{
+        align-items: center;
+        // opacity: 0.6;
+        display: flex;
+        justify-content: center;
+        margin-top: 5%;
+        div{
+            display: flex;
+            width: 90%;
+        }
+        .linhaPesquisa{
+            // background-color: white;
+            // opacity: 0.6;
+        }
+    }
+    main{
+        align-items: center;
+        display: flex;
+        height: 60%;
+        justify-content: center;
+        .containerMesas{
+            background-color: variables.$cor_fundo_form;    
+            border-radius: 5px;
+            display: flex;
+            flex-wrap: wrap;
+            min-height: 10%;
+            max-height: 90%;
+            overflow-y: scroll;
+            padding: 1rem;
+            width: 86%;
+
+            .linha{
+                display: flex;
+                flex-wrap: wrap;
+                height: 30%;
+                justify-content: center;
+                width: 100%;
+            }
+
+        }
+    }
+
+    footer{
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10%;
+        position: fixed;
+        width: 100%;
+
+        .botaoVoltar{
+            width: 30%;
+        }
+    }
+}

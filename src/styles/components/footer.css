@@ -1,0 +1,12 @@
+#footer {
+  background-color: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  bottom: 0px;
+  height: 50px;
+  width: 100vw;
+  color: white;
+  font-weight: 650;
+  animation: 5s visivel;
+  display: flex;
+  justify-content: space-around;
+}/*# sourceMappingURL=footer.css.map */

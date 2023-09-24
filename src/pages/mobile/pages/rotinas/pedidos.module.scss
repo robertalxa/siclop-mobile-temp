@@ -1,0 +1,561 @@
+@use '../../../../styles/variables.scss';
+
+
+.modalPedidoGeral{
+  align-items: center;
+    background-color: rgb(0, 0, 0, 0.5);
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+
+    .containerModalPedidoGeral{
+        background-color: white;
+        border-radius: 5px;
+        height: 40%;
+        width: 80%;
+
+        .linhaSuperior{
+          display: flex;
+          padding: 15px;
+          width: 100%;
+
+          .titulo{
+            display: flex;
+            justify-content: center;
+            width: 80%;
+          }
+          .imgX{
+            width: 20%;
+          }
+        }
+        main{
+          align-items: center;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          width: 100%;
+          .containerInputsModalPedidoGeral{
+            width: 90%;
+          }
+        }
+        footer{
+          margin-top: 3%;
+        }
+    }
+  &___invisivel{
+    display: none;
+  }
+}
+
+.modalIE{
+    align-items: center;
+    background-color: rgb(0, 0, 0, 0.5);
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+    &___invisivel{
+        display: none;
+    }
+
+    .containerModal{
+        background-color: white;
+        border-radius: 5px;
+        height: 80%;
+        width: 80%;
+
+        .linhaSuperior{
+            display: flex;
+            padding: 15px;
+            width: 100%;
+            .titulo{
+                display: flex;
+                justify-content: center;
+                width: 90%;
+            }
+            .imgX{
+                width: 10%;
+            }
+        }
+        .conteudoModal{
+            // border: 1px solid black;
+            display: flex;
+            flex-direction: column;
+            height: 80%;
+            overflow-y: scroll;
+            width: 100%;
+
+            table{
+                background-color: variables.$fundo_tabela;
+                border-radius: 10px;
+                height: 70%;
+                width: 100%;
+                .ths{
+                    display: flex;
+                    justify-content: space-between;
+                    .th_nome{
+                        width: 33%;
+                    }
+                    .th_qtd{
+                        width: 33%;
+                    }
+                    .th_val{
+                        width: 33%;
+                    }
+                }
+            }
+            .containerInputs{
+                width: 100%;
+            }
+        }
+    }
+}
+.containerLinhaIE{
+    width: 100%;
+    .tds{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        td{
+            border-right: 1px solid black;
+            width: 100%;
+        }
+        .td_prod{
+            font-size: small;
+            width: 100%;
+            word-break: break-all;
+        }
+        .td_qtd{
+            width: 100%;
+            button{
+                background: none;
+                border: none;
+                .add{
+                    width: 20px;
+                }
+                .remove{
+                    width: 24px;
+                }
+            }
+            input{
+                width: 7vw;
+            }
+        }
+        .td_val{
+            font-size: small;
+            width: 100%;
+        }
+    }
+}
+.body{
+    background-color: variables.$cor_fundo_geral;
+    height: 100vh;
+    width: 100%;
+
+
+    nav{
+        align-items: center;
+        background-color: variables.$cor_fundo_form;
+        display: flex;
+        height: 7%;
+        justify-content: space-between;
+        margin-top: 20px;
+        padding: 1%;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        // overflow: hidden;
+        width: 100%;
+
+        .div{
+            margin-right: 5px;
+        }
+    }
+    article{
+        align-items: center;
+        display: flex;
+        height: 5%;
+        justify-content: center;
+        margin-top: 2%;
+        width: 100%;
+
+        form{
+            display: flex;
+            justify-content: space-between;
+            width: 80%;
+
+            input{
+                border-style: none;
+                border-radius: 5px;
+            }
+
+            button{
+                background-color: variables.$fundo_botao_texto;
+                border-radius: 10px;
+                border-style: none;
+                color: variables.$fonte_botao_texto;
+                padding: 5px;
+            }
+        }
+    }
+
+    main{
+        align-items: flex-start;
+        display: flex;
+        height: 65vh;
+        justify-content: center;
+        margin-top: 2%;
+        padding: 2%;
+        width: 100%;
+
+        table{
+            background-color: variables.$fundo_tabela;
+            border-radius: 10px;
+            width: 100%;
+            .ths{
+                display: flex;
+                justify-content: space-between;
+                .th_cod{
+                    width: 10%;
+                }
+                .th_nome{
+                    width: 25%;
+                }
+                .th_qtd{
+                    width: 23%;
+                }
+                .th_ie{
+                    width: 18%;
+                }
+                .th_val{
+                    width: 22%;
+                }
+            }
+
+        }
+    }
+    footer{
+        .btns{
+            display: flex;
+        }
+    }
+}
+
+.containerLinha{
+    width: 100%;
+    .tds{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        td{
+            border-right: 1px solid black;
+
+
+        }
+        .td_cod{
+            width: 10%;
+        }
+        .td_prod{
+            font-size: small;
+            width: 25%;
+            word-break: break-all;
+        }
+        .td_qtd{
+            width: 23%;
+            button{
+                background: none;
+                border: none;
+                .add{
+                    width: 20px;
+                }
+                .remove{
+                    width: 24px;
+                }
+            }
+            input{
+                width: 7vw;
+            }
+        }
+        .td_ie{
+            align-items: flex-start;
+            display: flex;
+            justify-content: center;
+            width: 18%;
+            button{
+                border: none;
+                background: none;
+            }
+            img{
+                width: 20px;
+            }
+        }
+        .td_val{
+            font-size: small;
+            width: 22%;
+        }
+    }
+}
+.containerGrupos{
+    margin-right: 1%;
+}
+
+@media screen and (min-width: 481px) {
+    .body{
+        background-color: variables.$cor_fundo_geral;
+        height: 100vh;
+        width: 100%;
+
+        nav{
+            align-items: center;
+            background-color: variables.$cor_fundo_form;
+            display: flex;
+            height: 7%;
+            justify-content: space-between;
+            margin-top: 20px;
+            padding: 1%;
+            overflow-x: scroll;
+            overflow-y: hidden;
+
+            width: 100%;
+
+            .div{
+                margin-right: 5px;
+            }
+        }
+
+        main{
+            align-items: flex-start;
+            display: flex;
+            height: 65vh;
+            justify-content: center;
+            margin-top: 2%;
+            padding: 1%;
+            width: 100%;
+
+            table{
+                background-color: variables.$fundo_tabela;
+                // padding: 1rem;
+                width: 100%;
+                .ths{
+                    display: flex;
+                    justify-content: space-between;
+                }
+                // .tds{
+                //     display: flex;
+                //     justify-content: space-between;
+
+                //     td{
+                //         border-right: 1px solid black;
+                //     }
+                // }
+
+            }
+        }
+        footer{
+            .btns{
+                display: flex;
+            }
+        }
+    }
+    .containerLinha{
+        width: 100%;
+        .tds{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+
+            td{
+                border-right: 1px solid black;
+                button{
+                    background: none;
+                    border: none;
+                    img{
+                        width: 20px;
+                    }
+                }
+            }
+        }
+    }
+    .containerGrupos{
+        margin-right: 1%;
+    }
+    .containerGrupos{
+        margin-right: 1%;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .body{
+        background-color: variables.$cor_fundo_geral;
+        height: 100vh;
+        width: 100%;
+
+        nav{
+            align-items: center;
+            background-color: variables.$cor_fundo_form;
+            display: flex;
+            height: 10%;
+            justify-content: space-between;
+            margin-top: 20px;
+            padding: 1%;
+            overflow-x: scroll;
+            overflow-y: hidden;
+            width: 100%;
+
+            .div{
+                margin-right: 5px;
+            }
+        }
+
+        main{
+            align-items: flex-start;
+            display: flex;
+            height: 65vh;
+            justify-content: center;
+            margin-top: 2%;
+            padding: 1%;
+            width: 100%;
+
+            table{
+                background-color: variables.$fundo_tabela;
+                padding: 1rem;
+                width: 100%;
+                .ths{
+                    display: flex;
+                    justify-content: space-between;
+
+                    th{
+                        font-size: 1.3rem;
+                    }
+                }
+                // .tds{
+                //     display: flex;
+                //     justify-content: space-between;
+
+                //     td{
+                //         border-right: 1px solid black;
+                //         font-size: 1.3rem;
+                //     }
+                // }
+
+            }
+        }
+        footer{
+            .btns{
+                display: flex;
+            }
+        }
+    }
+    .containerLinha{
+        width: 100%;
+        .tds{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+
+            td{
+                border-right: 1px solid black;
+                button{
+                    background: none;
+                    border: none;
+                    img{
+                        width: 20px;
+                    }
+                }
+            }
+        }
+    }
+    .containerGrupos{
+        margin-right: 1%;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .body{
+        background-color: variables.$cor_fundo_geral;
+        height: 100vh;
+        width: 100%;
+
+        nav{
+            align-items: center;
+            background-color: variables.$cor_fundo_form;
+            display: flex;
+            height: 10%;
+            justify-content: space-between;
+            margin-top: 20px;
+            padding: 1%;
+            overflow-x: scroll;
+            overflow-y: hidden;
+
+            width: 100%;
+
+            .div{
+                margin-right: 5px;
+            }
+        }
+
+        main{
+            align-items: flex-start;
+            display: flex;
+            height: 65vh;
+            justify-content: center;
+            margin-top: 2%;
+            padding: 1%;
+            width: 100%;
+
+            table{
+                background-color: variables.$fundo_tabela;
+                padding: 1rem;
+                width: 100%;
+                .ths{
+                    display: flex;
+                    justify-content: space-between;
+
+                    th{
+                        font-size: 1.3rem;
+                    }
+                }
+                // .tds{
+                //     display: flex;
+                //     justify-content: space-between;
+
+                //     td{
+                //         border-right: 1px solid black;
+                //         font-size: 1.3rem;
+                //     }
+                // }
+
+            }
+        }
+        footer{
+            .btns{
+                display: flex;
+            }
+        }
+    }
+    .containerLinha{
+        width: 100%;
+        .tds{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            td{
+                border-right: 1px solid black;
+                button{
+                    background: none;
+                    border: none;
+                    img{
+                        width: 20px;
+                    }
+                }
+            }
+        }
+    }
+    .containerGrupos{
+        margin-right: 1%;
+    }
+}

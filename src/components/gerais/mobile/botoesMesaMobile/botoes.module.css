@@ -1,0 +1,91 @@
+::-webkit-scrollbar {
+  max-width: 0.7vw;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--fundo_botao_menu);
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-track-piece {
+  margin: 4vh 0;
+}
+
+.botaoAltera {
+  background-color: transparent;
+  border: transparent;
+  width: 100%;
+}
+
+.botaoExclui {
+  background-color: transparent;
+  border: transparent;
+  width: 100%;
+}
+
+.lapis {
+  width: 25%;
+}
+
+.lixeira {
+  width: 25%;
+}
+
+.form___invisivel {
+  display: none;
+}
+
+.linkBotao {
+  text-decoration: none;
+  color: #ffffff;
+}
+.linkBotao:hover {
+  color: #ffffff;
+}
+
+.containerBotoes {
+  background-color: rgb(32, 165, 32);
+  border-radius: 15px;
+  cursor: pointer;
+  transition: 0.5s;
+  width: 18vw;
+  color: #ffffff;
+}
+.containerBotoes:hover {
+  background-color: rgb(32, 165, 32);
+  box-shadow: 0px 0px 80px -20px rgba(0, 0, 0, 0.75);
+  transform: scale(1.1);
+  color: #ffffff;
+}
+.containerBotoes___pequeno {
+  color: #ffffff;
+  max-width: 220px;
+  padding: 1rem 0;
+  width: 20vw;
+}
+.containerBotoes___pequeno:hover {
+  background-color: rgb(32, 165, 32);
+  box-shadow: 0px 0px 80px -20px rgba(0, 0, 0, 0.75);
+  transform: scale(1.1);
+  color: #ffffff;
+}
+.containerBotoes___mini {
+  color: #ffffff;
+  width: 9vw;
+}
+.containerBotoes___mini:hover {
+  background-color: rgb(32, 165, 32);
+  box-shadow: 0px 0px 80px -20px rgba(0, 0, 0, 0.75);
+  transform: scale(1.1);
+  color: #ffffff;
+}
+.containerBotoes .conteudoBotao {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  justify-content: center;
+  padding: 5%;
+}/*# sourceMappingURL=botoes.module.css.map */

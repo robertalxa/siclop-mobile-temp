@@ -1,0 +1,96 @@
+@use '../../../../styles/variables';
+
+.linkBotao{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0.5rem;
+    &:hover{
+        // color: black;
+    }
+}
+
+.containerBotoes{
+    background-color: #abacac;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor:pointer;
+    transition: 0.3s;
+    margin: 0 5px 5px 0;
+    width: 50px;
+
+    &___ocupado{
+        background-color: rgb(244, 149, 71);
+    }
+
+    &___fechamento{
+        background-color: red;
+    }
+
+    &:hover {
+      transform: scale(1.2);
+    }
+
+    &:hover{
+        background-color: white;
+        box-shadow: 0px 0px 80px -20px rgba(0,0,0,0.75);
+        color: black;
+        -moz-box-shadow: 0px 0px 80px -20px rgba(0,0,0,0.75);
+        transform: scale(1.1);
+        -webkit-box-shadow: 0px 0px 80px -20px rgba(0,0,0,0.75);
+    }
+
+    &___20 {
+        color: #ffffff;
+        max-width: 220px;
+        padding: 1rem 0;
+        width: 20%;
+
+        &:hover{
+            background-color: white;
+            box-shadow: 0px 0px 80px -20px rgba(0,0,0,0.75);
+            color: black;
+            -moz-box-shadow: 0px 0px 80px -20px rgba(0,0,0,0.75);
+            transform: scale(1.1);
+            -webkit-box-shadow: 0px 0px 80px -20px rgba(0,0,0,0.75);
+        }
+    }
+
+    &___9{
+        color: #ffffff;
+        width: 9%;
+
+        &:hover{
+            background-color: white;
+            box-shadow: 0px 0px 80px -20px rgba(0,0,0,0.75);
+            color: black;
+            -moz-box-shadow: 0px 0px 80px -20px rgba(0,0,0,0.75);
+            transform: scale(1.1);
+            -webkit-box-shadow: 0px 0px 80px -20px rgba(0,0,0,0.75);
+        }
+    }
+
+    &___4{
+        color: #ffffff;
+        height: 100%;
+        width: 4%;
+
+        &:hover{
+            box-shadow: 0px 0px 80px -20px rgba(0,0,0,0.75);
+            color: #ffffff;
+            -moz-box-shadow: 0px 0px 80px -20px rgba(0,0,0,0.75);
+            transform: scale(1.1);
+            -webkit-box-shadow: 0px 0px 80px -20px rgba(0,0,0,0.75);
+        }
+    }
+
+    .conteudoBotao{
+        align-items: center;
+        display:flex;
+        flex-direction: column;
+        font-family: variables.$font_stack;
+        font-size: variables.$tamanho_fonte_media;
+        justify-content: center;
+        padding: 5%;
+        text-decoration: none;
+    }
+}

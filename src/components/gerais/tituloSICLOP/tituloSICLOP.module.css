@@ -1,0 +1,60 @@
+::-webkit-scrollbar {
+  max-width: 0.7vw;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--fundo_botao_menu);
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-track-piece {
+  margin: 4vh 0;
+}
+
+.botaoAltera {
+  background-color: transparent;
+  border: transparent;
+  width: 100%;
+}
+
+.botaoExclui {
+  background-color: transparent;
+  border: transparent;
+  width: 100%;
+}
+
+.lapis {
+  width: 25%;
+}
+
+.lixeira {
+  width: 25%;
+}
+
+.form___invisivel {
+  display: none;
+}
+
+.containerTituloSICLOP {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.containerTituloSICLOP .siclop {
+  font-family: "Times New Roman", times, serif;
+  font-style: italic;
+  text-shadow: 0px 1px 4px black;
+  color: #ffffff;
+  font-size: 5vw;
+  margin: 0 1vw 0 0;
+}
+.containerTituloSICLOP .subtitulo {
+  font-family: "Times New Roman", times, serif;
+  color: #ffffff;
+  text-shadow: 0px 1px 4px black;
+  font-size: 2vw;
+  margin: 0;
+}/*# sourceMappingURL=tituloSICLOP.module.css.map */

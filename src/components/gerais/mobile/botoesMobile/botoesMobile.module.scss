@@ -1,0 +1,63 @@
+@use '../../../../styles/variables.scss';
+
+.linkBotao{
+    color: variables.$fonte_botao_menu;
+    text-decoration: none;
+    
+    &:hover{
+        color: variables.$fonte_botao_menu_hover;
+    }
+
+    button{
+        background-color: variables.$fundo_botao_menu;
+        background-color: #0f0f57;
+        border-radius: 15px;
+        border-style: none;
+        color: variables.$fonte_botao_menu;
+        cursor:pointer;
+        height: 20vh;
+        transition: 0.5s;
+        width: 50vw;
+
+        &:hover{
+            background-color: variables.$fundo_botao_menu_hover;
+            box-shadow: 0px 0px 80px -20px rgba(0,0,0,0.75);
+            color: variables.$fonte_botao_menu_hover;
+            -moz-box-shadow: 0px 0px 80px -20px rgba(0,0,0,0.75);
+            transform: scale(1.0);
+            -webkit-box-shadow: 0px 0px 80px -20px rgba(0,0,0,0.75);
+        }
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .linkBotao{
+        color: variables.$fonte_botao_menu;
+        text-decoration: none;
+        
+        &:hover{
+            color: variables.$fonte_botao_menu_hover;
+        }
+    
+        button{
+            background-color: variables.$fundo_botao_menu;
+            background-color: #0f0f57;
+            border-radius: 15px;
+            border-style: none;
+            color: variables.$fonte_botao_menu;
+            cursor:pointer;
+            height: 25vh;
+            transition: 0.5s;
+            width: 50vw;
+    
+            &:hover{
+                background-color: variables.$fundo_botao_menu_hover;
+                box-shadow: 0px 0px 80px -20px rgba(0,0,0,0.75);
+                color: variables.$fonte_botao_menu_hover;
+                -moz-box-shadow: 0px 0px 80px -20px rgba(0,0,0,0.75);
+                transform: scale(1.0);
+                -webkit-box-shadow: 0px 0px 80px -20px rgba(0,0,0,0.75);
+            }
+        }
+    }
+}

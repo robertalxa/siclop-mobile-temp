@@ -1,0 +1,10 @@
+@use '../../../../../styles/variables.scss';
+
+.tr_td{
+    display: flex;
+    width: 100%;
+    &___par{
+        background-color: variables.$cor_linha_tabela_teste;
+        color: variables.$cor_fonte_tabela;
+    }
+}

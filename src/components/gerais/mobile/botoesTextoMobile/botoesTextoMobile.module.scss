@@ -1,0 +1,24 @@
+@use '../../../../styles/variables';
+
+.link{
+    background-color: transparent;
+    border: unset;
+    color: variables.$fonte_botao_texto ;
+    color: white ;
+    text-decoration: none!important;
+    width: 100%;
+}
+
+.containerBotao{
+    align-items: center;
+    background-color: variables.$fundo_botao_texto;
+    border-radius: 10px;
+    color: variables.$fonte_botao_texto;
+    display: flex;
+    justify-content: center;
+    padding: 0.2rem;
+    &___negativo {
+      background-color: variables.$fonte_botao_texto;
+      color: variables.$fundo_botao_texto;
+    }
+}

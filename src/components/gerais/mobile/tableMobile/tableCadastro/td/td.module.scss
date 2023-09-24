@@ -1,0 +1,128 @@
+@use '../../../../../styles/variables.scss';
+
+.td {
+  align-items: flex-start;
+  display: flex;
+  justify-content: flex-start;
+  text-transform: uppercase;
+  word-break: break-all;
+
+  &___string {
+    align-items: center;
+    border-left: 2px solid black;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0.275rem;
+    text-transform: uppercase;
+    width: 100%;
+  }
+
+  &___number {
+    align-items: center;
+    border-left: 2px solid black;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.275rem;
+    text-transform: uppercase;
+    width: 100%;
+  }
+
+  &___par {
+    background-color: variables.$cor_linha_tabela;
+    color: variables.$cor_fonte_tabela;
+  }
+}
+//menor maior médio numéricos
+.tam_5 {
+  background-color: green;
+  align-items: center;
+  display: flex;
+  padding: 0.275rem;
+  justify-content: center;
+  min-width: 3vw;
+  max-width: 5vw;
+}
+.tam_7 {
+  align-items: center;
+  display: flex;
+  padding: 0.275rem;
+  justify-content: center;
+  min-width: 7vw;
+  max-width: 7.5vw;
+}
+.tam_10 {
+  align-items: center;
+  display: flex;
+  padding: 0.275rem;
+  justify-content: center;
+  min-width: 9.5vw;
+  max-width: 10vw;
+}
+
+.tam_16 {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  min-width: 16vw;
+  padding: 0.275rem;
+}
+
+.tam_9_string {
+  align-items: center;
+  display: flex;
+  padding: 0.275rem;
+  justify-content: flex-start;
+  min-width: 7vw;
+  max-width: 9vw;
+}
+
+.tam_9_number {
+  align-items: center;
+  display: flex;
+  padding: 0.275rem;
+  justify-content: flex-end;
+  min-width: 7vw;
+  max-width: 9vw;
+}
+.tam_5_number {
+  align-items: center;
+  display: flex;
+  padding: 0.275rem;
+  justify-content: flex-end;
+  min-width: 3vw;
+  max-width: 5vw;
+}
+
+.tam_9_5_string {
+  align-items: center;
+  display: flex;
+  padding: 0.275rem;
+  justify-content: flex-start;
+  min-width: 9.5vw;
+  // max-width: 10vw;
+}
+
+.tam_10_number {
+  align-items: center;
+  display: flex;
+  padding: 0.275rem;
+  justify-content: flex-end;
+  min-width: 9.5vw;
+  max-width: 10vw;
+}
+
+.tam_16_string {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  min-width: 16vw;
+  padding: 0.275rem;
+}
+
+.tam_40_string {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  min-width: 40vw;
+  padding: 0.275rem;
+}

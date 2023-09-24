@@ -1,0 +1,117 @@
+@use '../../../../styles/variables';
+
+.input {
+  background-color: variables.$cor_input;
+  border-color: rgb(185, 185, 185);
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 2px;
+  font-family: variables.$font_stack;
+  font-size: variables.$tamanho_fonte_media;
+  height: 2rem;
+  margin-left: 1vw;
+//   max-width: 25vw;
+  width: 100%;
+  padding: 1vw;
+  text-transform: uppercase;
+
+  &___6{
+    background-color: variables.$cor_input;
+    border-color: rgb(185, 185, 185);
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 2px;
+    font-family: variables.$font_stack;
+    font-size: variables.$tamanho_fonte_media;
+    height: 2rem;
+    margin-left: 1vw;
+    max-width: 5%;
+    min-width: 6%;
+    padding: 1vw;
+    text-transform: uppercase;
+  }
+
+  &___8{
+    background-color: variables.$cor_input;
+    border-color: rgb(185, 185, 185);
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 2px;
+    font-family: variables.$font_stack;
+    font-size: variables.$tamanho_fonte_media;
+    height: 2rem;
+    margin-left: 1vw;
+    max-width: 7%;
+    min-width: 8%;
+    padding: 1vw;
+    text-transform: uppercase;
+  }
+
+  &___11{
+    background-color: variables.$cor_input;
+    border-color: rgb(185, 185, 185);
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 2px;
+    font-family: variables.$font_stack;
+    font-size: variables.$tamanho_fonte_media;
+    height: 2rem;
+    margin-left: 1vw;
+    max-width: 10%;
+    min-width: 11%;
+    padding: 1vw;
+    text-transform: uppercase;
+  }
+  &___26{
+    background-color: variables.$cor_input;
+    background-color: white;
+    border-color: rgb(185, 185, 185);
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 2px;
+    font-family: variables.$font_stack;
+    font-size: variables.$tamanho_fonte_media;
+    height: 2rem;
+    padding: 1vw;
+    text-transform: uppercase;
+    width: 26%;
+  }
+
+  &___30{
+    background-color: variables.$cor_input;
+    background-color: white;
+    border-color: rgb(185, 185, 185);
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 2px;
+    font-family: variables.$font_stack;
+    font-size: variables.$tamanho_fonte_media;
+    font-size: 5rem;
+    height: 4vh;
+    padding: 1vw;
+    text-transform: uppercase;
+    width: 30%;
+  }
+  &___minusculo{
+    text-transform: none;
+  }
+
+  &:focus {
+    border-color: lightblue;
+    outline: 0;
+  }
+  &___read {
+    background-color: rgb(218, 218, 218);
+    cursor: default;
+  }
+}
+
+.valido,
+.valido:focus {
+  border-color: greenyellow;
+}
+
+.invalido,
+.invalido:focus {
+  border-color: red;
+}

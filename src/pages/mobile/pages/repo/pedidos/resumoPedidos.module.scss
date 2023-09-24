@@ -1,0 +1,34 @@
+@use '../../../../../styles/variables.scss';
+.body{
+    align-items: center;
+    background-color: variables.$cor_fundo_geral;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: flex-start;
+    width: 100%;
+    
+    main{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        height: 70vh;
+        justify-content: center;
+        width: 100%;
+        
+    }
+    article{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        height: 15vh;
+        justify-content: space-evenly;
+        width: 100%;
+
+        .containerBotoes{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+    }
+}

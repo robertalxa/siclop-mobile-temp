@@ -1,0 +1,47 @@
+::-webkit-scrollbar {
+  max-width: 0.7vw;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--fundo_botao_menu);
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-track-piece {
+  margin: 4vh 0;
+}
+
+.botaoAltera {
+  background-color: transparent;
+  border: transparent;
+  width: 100%;
+}
+
+.botaoExclui {
+  background-color: transparent;
+  border: transparent;
+  width: 100%;
+}
+
+.lapis {
+  width: 25%;
+}
+
+.lixeira {
+  width: 25%;
+}
+
+.form___invisivel {
+  display: none;
+}
+
+.tr_td {
+  display: flex;
+  max-height: 20%;
+  width: 100%;
+}
+.tr_td___par {
+  background-color: var(--cor_linha_tabela_teste);
+  color: var(--cor_fonte_tabela);
+  max-height: 20%;
+}/*# sourceMappingURL=tr_td.module.css.map */

@@ -1,0 +1,575 @@
+@use '../../../../styles/variables.scss';
+.body{
+    background-color: variables.$cor_fundo_geral;
+    height: 100vh;
+    width: 100%;
+
+    main{
+        align-items: center;
+        display: flex;
+        height: 90%;
+        justify-content: center;
+        // margin-top: 15%;
+        width: 100%;
+
+        .containerComandas{
+            background-color: variables.$cor_fundo_geral;
+            border: 2px solid black;
+            border-radius: 10px;
+            height: 80%;
+            width: 86%;
+
+            header{
+                img{
+                    padding: 1rem;
+                    width: 50%;
+                }
+            }
+
+            section{
+                align-items: center;
+                display: flex;
+                height: 50%;
+                justify-content: center;
+                width: 100%;
+
+                input{
+                    border: 1px solid black;
+                    border-radius: 10px;
+                    padding: 1rem;
+                }
+
+                .containerBotao{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    button{
+                        background-color: limegreen;
+                        border: none;
+                        border-radius: 5px;
+                        color: variables.$fonte_botao_texto;
+                        padding: 1rem;
+                        width: 100%;
+                    }
+                }
+            }
+
+            footer{
+                display: flex;
+                // height: 100%;
+                justify-content: space-between;
+                padding: 1rem;
+                width: 100%;
+                p{
+                    color: white;
+                    font-size: 5rem;
+                }
+
+                .onorango{
+                    align-items: center;
+                    display: flex;
+                    justify-content: center;
+                    img{
+                        transform: scaleX(-1);
+                        width: 90px;
+                    }
+                }
+            }
+        }
+    }
+    footer{
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10%;
+        // position: fixed;
+        width: 100%;
+
+        .botaoVoltar{
+            width: 30%;
+        }
+    }
+}
+
+@media screen and (min-width: 481px) {
+
+    .body{
+        background-color: variables.$cor_fundo_geral;
+        height: 100vh;
+        width: 100%;
+    
+        main{
+            align-items: center;
+            display: flex;
+            // height: 80vh;
+            justify-content: center;
+            // margin-top: 15%;
+            width: 100%;
+    
+            .containerComandas{
+                background-color: variables.$cor_fundo_geral;
+                border: 2px solid black;
+                border-radius: 10px;
+                display: flex;
+                flex-direction: column;
+                height: 90%;
+                justify-content: space-between;
+                width: 86%;
+    
+                header{
+                    img{
+                        padding: 1rem;
+                        width: 200px;
+                    }
+                }
+    
+                section{
+                    align-items: center;
+                    display: flex;
+                    height: 50%;
+                    justify-content: center;
+                    width: 100%;
+    
+                    input{
+                        border: 1px solid black;
+                        border-radius: 10px;
+                        font-size: 1.2rem;
+                        padding: 2rem;
+                    }
+
+                    .containerBotao{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 100%;
+                        button{
+                            background-color: limegreen;
+                            border: none;
+                            border-radius: 5px;
+                            color: variables.$fonte_botao_texto;
+                            padding: 1rem;
+                            width: 50%;
+                        }
+                    }
+                }
+    
+                footer{
+                    display: flex;
+                    // height: 100%;
+                    justify-content: space-between;
+                    padding: 1rem;
+                    width: 100%;
+                    p{
+                        color: white;
+                        font-size: 5rem;
+                    }
+    
+                    .onorango{
+                        align-items: center;
+                        display: flex;
+                        justify-content: center;
+                        img{
+                            transform: scaleX(-1);
+                            width: 90px;
+                        }
+                    }
+                }
+            }
+        }
+        footer{
+            bottom: 0;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 10%;
+            // position: fixed;
+            width: 100%;
+    
+            .botaoVoltar{
+                width: 30%;
+            }
+        }
+    }
+}
+
+  @media screen and (min-width: 769px) {
+    .body{
+        background-color: variables.$cor_fundo_geral;
+        height: 100vh;
+        width: 100%;
+    
+        main{
+            align-items: center;
+            display: flex;
+            height: 80%;
+            justify-content: center;
+            // margin-top: 15%;
+            width: 100%;
+    
+            .containerComandas{
+                background-color: variables.$cor_fundo_geral;
+                border: 2px solid black;
+                border-radius: 10px;
+                display: flex;
+                flex-direction: column;
+                height: 90%;
+                justify-content: space-between;
+                width: 86%;
+    
+                header{
+                    img{
+                        padding: 1rem;
+                        width: 190px;
+                    }
+                }
+    
+                section{
+                    align-items: center;
+                    display: flex;
+                    height: 50%;
+                    justify-content: center;
+                    padding: 1rem;
+                    width: 100%;
+    
+                    input{
+                        border: 1px solid black;
+                        border-radius: 10px;
+                        font-size: 2rem;
+                        padding: 3rem;
+                    }
+                    .containerBotao{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 100%;
+                        button{
+                            background-color: limegreen;
+                            border: none;
+                            border-radius: 5px;
+                            color: white;
+                            padding: 1rem;
+                            width: 50%;
+                        }
+                    }
+                }
+    
+                footer{
+                    display: flex;
+                    // height: 100%;
+                    justify-content: space-between;
+                    padding: 1rem;
+                    width: 100%;
+                    p{
+                        color: white;
+                        font-size: 9rem;
+                    }
+    
+                    .onorango{
+                        align-items: center;
+                        display: flex;
+                        justify-content: center;
+                        img{
+                            transform: scaleX(-1);
+                            width: 200px;
+                        }
+                    }
+                }
+            }
+        }
+        footer{
+            bottom: 0;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 10%;
+            // position: fixed;
+            width: 100%;
+    
+            .botaoVoltar{
+                width: 30%;
+            }
+        }
+    }
+}
+
+  @media screen and (min-width: 1280px) {
+    .body{
+        background-color: variables.$cor_fundo_geral;
+        height: 100vh;
+        width: 100%;
+    
+        main{
+            align-items: center;
+            display: flex;
+            height: 80%;
+            justify-content: center;
+            // margin-top: 15%;
+            width: 100%;
+    
+            .containerComandas{
+                background-color: variables.$cor_fundo_geral;
+                border: 2px solid black;
+                border-radius: 10px;
+                display: flex;
+                flex-direction: column;
+                height: 90%;
+                justify-content: space-between;
+                width: 86%;
+    
+                header{
+                    img{
+                        padding: 1rem;
+                        width: 150px;
+                    }
+                }
+    
+                section{
+                    align-items: center;
+                    display: flex;
+                    height: 50%;
+                    justify-content: center;
+                    width: 100%;
+    
+                    input{
+                        border: 1px solid black;
+                        border-radius: 10px;
+                        font-size: 2rem;
+                        padding: 3rem;
+                    }
+
+                    .containerBotao{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 100%;
+                        button{
+                            background-color: limegreen;
+                            border: none;
+                            border-radius: 5px;
+                            color: variables.$fonte_botao_texto;
+                            padding: 1rem;
+                            width: 50%;
+                        }
+                    }
+                }
+    
+                footer{
+                    display: flex;
+                    // height: 100%;
+                    justify-content: space-between;
+                    padding: 1rem;
+                    width: 100%;
+                    p{
+                        color: white;
+                        font-size: 9rem;
+                    }
+    
+                    .onorango{
+                        align-items: center;
+                        display: flex;
+                        justify-content: center;
+                        img{
+                            transform: scaleX(-1);
+                            width: 200px;
+                        }
+                    }
+                }
+            }
+        }
+        footer{
+            bottom: 0;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 10%;
+            // position: fixed;
+            width: 100%;
+    
+            .botaoVoltar{
+                width: 30%;
+            }
+        }
+    }
+}
+
+  @media screen and (min-width: 1024px), (min-height: 1200px) {
+    .body{
+        background-color: variables.$cor_fundo_geral;
+        height: 100vh;
+        width: 100%;
+    
+        main{
+            align-items: center;
+            display: flex;
+            height: 80%;
+            justify-content: center;
+            // margin-top: 15%;
+            width: 100%;
+    
+            .containerComandas{
+                background-color: variables.$cor_fundo_geral;
+                border: 2px solid black;
+                border-radius: 10px;
+                display: flex;
+                flex-direction: column;
+                height: 90%;
+                justify-content: space-between;
+                width: 86%;
+    
+                header{
+                    img{
+                        padding: 1rem;
+                        width: 200px;
+                    }
+                }
+    
+                section{
+                    align-items: center;
+                    display: flex;
+                    height: 40%;
+                    justify-content: center;
+                    width: 100%;
+    
+                    input{
+                        border: 1px solid black;
+                        border-radius: 10px;
+                        font-size: 1rem;
+                        padding: 3rem;
+                    }
+
+                    .containerBotao{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 100%;
+                        button{
+                            background-color: limegreen;
+                            border: none;
+                            border-radius: 5px;
+                            color: variables.$fonte_botao_texto;
+                            padding: 1rem;
+                            width: 50%;
+                        }
+                    }
+                }
+    
+                footer{
+                    display: flex;
+                    // height: 100%;
+                    justify-content: space-between;
+                    padding: 1rem;
+                    width: 100%;
+                    p{
+                        color: white;
+                        font-size: 9rem;
+                    }
+    
+                    .onorango{
+                        align-items: center;
+                        display: flex;
+                        justify-content: center;
+                        img{
+                            transform: scaleX(-1);
+                            width: 200px;
+                        }
+                    }
+                }
+            }
+        }
+        footer{
+            bottom: 0;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 10%;
+            // position: fixed;
+            width: 100%;
+    
+            .botaoVoltar{
+                width: 30%;
+            }
+        }
+    }
+}
+
+//   @media screen and (min-width: 1440px), (min-height: 900px) {
+//     .body{
+//         background: linear-gradient(130deg, rgba(0,69,245,1) 20%, rgba(0,52,173,1) 70%, rgba(2,0,36,1) 100%);
+//         height: 100vh;
+//         width: 100%;
+    
+//         main{
+//             align-items: center;
+//             display: flex;
+//             height: 80%;
+//             justify-content: center;
+//             // margin-top: 15%;
+//             width: 100%;
+    
+//             .containerComandas{
+//                 background: linear-gradient(130deg, rgba(0,69,245,1) 20%, rgba(0,52,173,1) 70%, rgba(2,0,36,1) 100%);
+//                 border: 2px solid black;
+//                 border-radius: 10px;
+//                 height: 90%;
+//                 width: 86%;
+    
+//                 header{
+//                         img{
+//                         padding: 1rem;
+//                         width: 350px;
+//                     }
+//                 }
+    
+//                 section{
+//                     align-items: center;
+//                     display: flex;
+//                     height: 25%;
+//                     justify-content: center;
+//                     width: 100%;
+    
+//                     input{
+//                         border: 1px solid black;
+//                         border-radius: 10px;
+//                         font-size: 2rem;
+//                         padding: 3rem;
+//                     }
+
+//                     .containerBotao{
+//                         display: flex;
+//                         align-items: center;
+//                         justify-content: center;
+//                         width: 100%;
+//                         button{
+//                             background-color: #0f0f57;
+//                             border: none;
+//                             border-radius: 5px;
+//                             color: white;
+//                             padding: 1rem;
+//                             width: 50%;
+//                         }
+//                     }
+//                 }
+    
+//                 footer{
+//                     display: flex;
+//                     // height: 100%;
+//                     justify-content: space-between;
+//                     padding: 1rem;
+//                     width: 100%;
+//                     p{
+//                         color: white;
+//                         font-size: 9rem;
+//                     }
+    
+//                     .onorango{
+//                         align-items: center;
+//                         display: flex;
+//                         justify-content: center;
+//                         img{
+//                             transform: scaleX(-1);
+//                             width: 200px;
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
+  

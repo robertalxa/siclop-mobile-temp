@@ -1,0 +1,36 @@
+::-webkit-scrollbar {
+  max-width: 0.7vw;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--fundo_botao_menu);
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-track-piece {
+  margin: 4vh 0;
+}
+
+.botaoAltera {
+  background-color: transparent;
+  border: transparent;
+  width: 100%;
+}
+
+.botaoExclui {
+  background-color: transparent;
+  border: transparent;
+  width: 100%;
+}
+
+.lapis {
+  width: 25%;
+}
+
+.lixeira {
+  width: 25%;
+}
+
+.form___invisivel {
+  display: none;
+}/*# sourceMappingURL=variables.css.map */

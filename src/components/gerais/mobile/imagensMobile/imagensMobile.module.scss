@@ -1,0 +1,25 @@
+.imagem{
+    cursor: pointer;
+    width:90px;
+}
+
+@media screen and (min-width: 481px) {
+    .imagem{
+        cursor: pointer;
+        width:90px;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .imagem{
+        cursor: pointer;
+        width:120px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .imagem{
+        cursor: pointer;
+        width:150px;
+    }
+}

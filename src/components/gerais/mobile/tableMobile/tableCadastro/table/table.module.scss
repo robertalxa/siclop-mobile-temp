@@ -1,0 +1,20 @@
+.containerTabela{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 280px);
+    width: 100%;
+}
+
+.containerTr_th{
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+
+.containerTr_td{
+    align-items: center;
+    overflow-y: auto;
+    height: 100%;
+    width: 100%;
+}

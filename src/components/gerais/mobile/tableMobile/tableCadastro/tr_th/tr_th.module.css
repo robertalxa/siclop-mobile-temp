@@ -1,0 +1,9 @@
+.containerTr_th {
+  display: flex;
+  width: 100%;
+}
+.containerTr_th .containerTr {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}/*# sourceMappingURL=tr_th.module.css.map */

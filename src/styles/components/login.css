@@ -1,0 +1,142 @@
+::-webkit-scrollbar {
+  max-width: 0.7vw;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--fundo_botao_menu);
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-track-piece {
+  margin: 4vh 0;
+}
+
+.botaoAltera {
+  background-color: transparent;
+  border: transparent;
+  width: 100%;
+}
+
+.botaoExclui {
+  background-color: transparent;
+  border: transparent;
+  width: 100%;
+}
+
+.lapis {
+  width: 25%;
+}
+
+.lixeira {
+  width: 25%;
+}
+
+.form___invisivel {
+  display: none;
+}
+
+.container-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.container-image {
+  flex: 1;
+}
+.container-image img {
+  width: 90%;
+  animation: 4s movimentacao;
+  border-radius: 5px;
+}
+
+.container-form {
+  width: 100vh;
+  height: 60vh;
+  background-color: rgba(255, 255, 255, 0.4);
+  animation: 5s visivel;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 2;
+}
+.container-form h1 {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: calc(1.5em + 0.5vw);
+  color: var(--fonte_botao_texto);
+}
+
+.form-group {
+  display: flex;
+  flex-direction: row;
+  margin: 0 20vh 5px 20vh;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 15px;
+}
+.form-group label {
+  flex: 1;
+  justify-content: end;
+  color: var(--fonte_botao_texto);
+}
+.form-group input {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 3;
+  border-radius: 12px;
+  flex: 3;
+}
+
+.form-check-label input {
+  height: 15px;
+  width: 15px;
+}
+
+#btnEsqueciSenha {
+  border: none;
+  background-color: var(--fundo_botao_menu);
+  padding: 3px 6px;
+  color: var(--fonte_botao_menu);
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+#btnEntrar {
+  margin-top: 1rem;
+  align-content: flex-start;
+  align-items: left;
+  background-color: var(--fundo_botao_menu);
+  color: var(--fonte_botao_menu);
+}
+
+.btn_info:hover {
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+@keyframes visivel {
+  0% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes movimentacao {
+  0% {
+    margin-left: 50%;
+    width: 150%;
+  }
+  100% {
+    width: 90%;
+  }
+}/*# sourceMappingURL=login.css.map */

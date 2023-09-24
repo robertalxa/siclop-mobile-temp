@@ -1,0 +1,55 @@
+.th{
+    align-items: center;
+    display: flex;
+    font-weight: 900;
+    justify-content: flex-start;
+    padding: 0.275rem;
+    width: 100%;
+}
+.tam_5 {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  min-width: 3vw;
+  max-width: 5vw;
+  padding: 0.275rem;
+}
+.tam_7_5 {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  min-width: 5vw;
+  max-width: 7.5vw;
+  padding: 0.275rem;
+}
+.tam_8_5{
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    min-width: 7vw;
+    max-width: 8.5vw;
+    padding: 0.275rem;
+}
+.tam_9{
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    min-width: 9vw;
+    padding: 0.275rem;
+}
+.tam_16{
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    min-width: 16vw;
+    padding: 0.275rem;
+}
+
+.tam_40{
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    min-width: 40vw;
+    max-width: 40vw;
+    padding: 0.275rem;
+}
